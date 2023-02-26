@@ -1,0 +1,81 @@
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 5%;
+  }
+  
+  .calculator {
+    width: 450px;
+    background-image: linear-gradient(180deg, rgb(115, 5, 100), rgb(110,0,95));
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px 2px rgba(86, 2, 78, 0.438);
+    border-style: solid;
+    border-image-width: 40px;
+    border-color:black;
+  }
+  
+  .screen {
+    color: white;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    text-align: right;
+    padding: 25px 5px;
+    background-image: linear-gradient(180deg, rgb(80,8,70), rgb(115, 5, 100));
+    border-radius: 25px;
+    margin-bottom:10px;
+  }
+  
+  .button {
+    background-image: linear-gradient( 180deg ,rgb(250, 185, 237), rgb(201, 78, 176));
+    color: purple;
+    height: 97px;
+    width: 23%;
+    font-size: 40px;
+    cursor: pointer;
+    border:none;
+    border-radius: 50px;
+  }
+
+  .button:hover {
+    background-image: linear-gradient( 180deg ,rgb(245, 214, 239), rgb(204, 124, 188));
+  }
+
+  .button:active{
+    background-image: linear-gradient( 180deg ,rgb(241, 121, 217), rgb(191, 56, 164));
+  }
+  
+  .double {
+    width: 49.7%;
+  }
+  
+  .triple {
+    width: 74.3%;
+  }
+  
+  .button:last-child {
+    background-image: linear-gradient(180deg,rgb(201,135,212), rgb(183, 55, 203));
+    color: white;
+  }
+
+  .button:last-child:hover{
+    background-image: linear-gradient(180deg,rgb(199, 150, 207), rgb(192, 97, 208));
+    color: white;
+  }
+
+  .button:last-child:active{
+    background-image: linear-gradient(180deg,rgb(186, 72, 203), rgb(161, 20, 185));
+    color: white;
+  }
+
+  .button-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 2%;
+  }
+ 
